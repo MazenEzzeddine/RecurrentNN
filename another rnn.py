@@ -113,6 +113,9 @@ if __name__ == '__main__':
 
     plot_predictions(test_set, predicted_stock_price)
 
+    return_rmse(test_set, predicted_stock_price)
+
+
 
 
 
